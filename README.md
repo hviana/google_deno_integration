@@ -11,7 +11,7 @@ import { GoogleAPI } from "https://deno.land/x/google_deno_integration/mod.ts";
 //Expiration and aud are optional. Change the options below to yours:
 const api = new GoogleAPI({
     email: "my-email-example@chama-la.iam.gserviceaccount.com",
-    scopes: ["https://www.googleapis.com/auth/androidpublisher"],
+    scope: ["https://www.googleapis.com/auth/androidpublisher"],
     key: "-----BEGIN PRIVATE KEY-----\nXXXXXXXXXXXX",
 }
 //NOW, YOU CAN USE:
