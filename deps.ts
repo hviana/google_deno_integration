@@ -1,1 +1,1 @@
-export { importPKCS8, SignJWT } from "https://deno.land/x/jose@v4.14.1/index.ts";
+export { importPKCS8, SignJWT } from "https://deno.land/x/jose@v5.8.0/index.ts";
